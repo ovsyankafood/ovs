@@ -19,7 +19,6 @@
     "extract-intl": "node ./internals/scripts/extract-intl.js",
     "npmcheckversion": "node ./internals/scripts/npmcheckversion.js",
     "preinstall": "npm run npmcheckversion",
-    "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
     "build:clean": "rimraf ./build",
     "start": "cross-env NODE_ENV=development node server",
@@ -45,11 +44,13 @@
     "prettify": "prettier --write",
     "heroku-postbuild": "npm run build"
   },
-  "heroku-run-build-script": false,
+  "heroku-run-build-script": true,
   "lint-staged": {
     "*.js": [
       "npm run lint:eslint:fix",
-      "git add --force"
+      "git add --force",
+      "eslint --cache --fix",
+      "stylelint --fix"
     ],
     "*.json": [
       "prettier --write",
@@ -149,10 +150,11 @@
     "google-maps-api": "^2.0.1",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
+    "husky": "^4.2.5",
     "imports-loader": "0.8.0",
     "jest-cli": "23.6.0",
     "jest-styled-components": "6.2.2",
-    "lint-staged": "7.3.0",
+    "lint-staged": "^7.3.0",
     "ngrok": "3.1.0",
     "node-plop": "0.16.0",
     "node-sass": "^4.12.0",
@@ -185,5 +187,10 @@
     "webpack-hot-middleware": "2.24.3 ",
     "webpack-pwa-manifest": "3.7.1",
     "whatwg-fetch": "3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

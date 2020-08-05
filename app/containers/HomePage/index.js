@@ -117,12 +117,12 @@ export class HomePage extends React.PureComponent {
           addToCart={onAddToCart}
           openCart={this.handleClickOpen}
         />
-        <BooksSection
+		<BooksSection
           items={catalog.books}
           addToCart={onAddToCart}
           openCart={this.handleClickOpen}
         />
-        <BonusSection
+ 		<BonusSection
           items={catalog.bonus}
           addToCart={onAddToCart}
           openCart={this.handleClickOpen}

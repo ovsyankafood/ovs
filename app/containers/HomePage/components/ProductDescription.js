@@ -65,7 +65,7 @@ export class ProductDescription extends React.PureComponent {
         </DialogTitle>
         <DialogContent>
           <div className="product__description_content">
-            <div className="product__description_img_wrapper">
+            <div className="product__description_img_wrapper" >
               <img
                 className="product__description_img"
                 src={el.imageinside ? require(`images/products/${el.imageinside}`) : require(`images/products/program_1.jpg`) /* eslint-disable-line */}
@@ -78,26 +78,9 @@ export class ProductDescription extends React.PureComponent {
                   {el.shortDescription}
                 </h4>
               )}
-              {el.description && (
-                <div>
-                  {el.description}
-                  {el.vodasostav && <div>{el.vodasostav}</div>}
-                </div>
-              )}
-              {el.menuHref && (
-                <div>
-                  <a target="_blank" href={molodostMenuNU}>
-                    Посмотреть меню программы
-                  </a>
-                </div>
-              )}
-              {el.menuDetoxHrev && (
-                <div>
-                  <a target="_blank" href={detoxMenuNU}>
-                    Посмотреть меню программы
-                  </a>
-                </div>
-              )}
+              {el.description && <div>{el.description}{el.vodasostav && <div>{el.vodasostav}</div>}</div>}
+			  {el.menuHref && <div><a target="_blank" href={molodostMenuNU}>Посмотреть меню программы</a></div>}
+			  {el.menuDetoxHrev && <div><a target="_blank" href={detoxMenuNU}>Посмотреть меню программы</a></div>}
               {el.properties && (
                 <h4 className="product__description_product_kkal">
                   {el.properties}

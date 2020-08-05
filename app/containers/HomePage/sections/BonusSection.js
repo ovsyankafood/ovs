@@ -99,7 +99,8 @@ class BonusSection extends React.PureComponent {
                     <div className="program__slide_cell">
                       <p className="program__slide_characteristic">
                         <b>
-                          {el.discountCost2 ? el.discountCost2 : el.cost} руб.
+                          {el.discountCost2 ? el.discountCost2 : el.cost}{' '}
+                          руб.
                         </b>
                       </p>
                     </div>
@@ -117,6 +118,7 @@ class BonusSection extends React.PureComponent {
               </div>
             ))}
           </Slider>
+          
         </div>
         <WeekMenu
           isOpen={this.state.isMenuModalOpen}
