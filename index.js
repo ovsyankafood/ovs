@@ -50,7 +50,7 @@ app.post('/api/order/call', (req, res) => {
   });
 });
 
-app.use('/', express.static(__dirname + '/build'));
+app.use('/', express.static(`${__dirname}/build`));
 
 app.post('/api/order/cash', (req, res) => {
   const message = `Поступил заказ.\n Оплата при получении.\n Имя: ${

@@ -95,13 +95,12 @@ class BooksSection extends React.PureComponent {
                   <div className="program__slide_bottom program__slide_bottom_program sticky_slide_bottom">
                     <div className="program__slide_bottom_name_container">
                       <p className="program__slide_name">{el.name}</p>
-<p className="program__slide_text">{el.consist}</p>
+                      <p className="program__slide_text">{el.consist}</p>
                     </div>
                     <div className="program__slide_cell">
                       <p className="program__slide_characteristic">
                         <b>
-                          {el.discountCost2 ? el.discountCost2 : el.cost}{' '}
-                          руб.
+                          {el.discountCost2 ? el.discountCost2 : el.cost} руб.
                         </b>
                       </p>
                     </div>
@@ -119,7 +118,6 @@ class BooksSection extends React.PureComponent {
               </div>
             ))}
           </Slider>
-          
         </div>
         <WeekMenu
           isOpen={this.state.isMenuModalOpen}
