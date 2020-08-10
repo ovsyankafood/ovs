@@ -95,20 +95,12 @@ app.post('/api/order/credit', (req, res) => {
   bot.sendMessage(CHAT_ID, message);
   res.send(message);
 
-  let email_field;
-
-  if(req.body.email !== '') {
-    email_field = '<li><b>E-mail:</b> ${req.body.email}</li>';
-  } else {
-    email_field = '';
-  }
-
   const htmlCredit = `<div>
     <p>Информация о заказе:</p>
     <ul>
       <li><b>Имя:</b> ${req.body.name}</li>
       <li><b>Тел.:</b> ${req.body.phone}</li>
-      ` + email_field + `
+      <li><b>E-mail:</b> ${req.body.email}</li>
       <li><b>Вид оплаты:</b> Интернет-банк</li>
       <li><b>Номер заказа:</b> ${req.body.orderId}</li>
       <li><b>Наименование заказа:</b> ${req.body.products}</li>
