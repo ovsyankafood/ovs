@@ -105,7 +105,7 @@ class CallBackSection extends React.PureComponent {
             this.setState({ paymentUrl: response.data.PaymentURL });
             this.setState({ nameValue: '' });
             this.setState({ phoneValue: null });
-            this.setState({ emailValue: null });
+            this.setState({ emailValue: '' });
           })
           .catch(error => {
             console.log(error);
