@@ -103,6 +103,9 @@ class CallBackSection extends React.PureComponent {
           .then(response => {
             this.setState({ isPaymentForm: true });
             this.setState({ paymentUrl: response.data.PaymentURL });
+            this.setState({ nameValue: '' });
+            this.setState({ phoneValue: null });
+            this.setState({ emailValue: null });
           })
           .catch(error => {
             console.log(error);
@@ -111,7 +114,6 @@ class CallBackSection extends React.PureComponent {
         axios
           .post('/api/order/cash', {
             phone: phoneValue,
-            email:  emailValue,
             name: nameValue,
             message: textValue,
             products: productsText,
