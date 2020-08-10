@@ -23,7 +23,6 @@ class CallBackSection extends React.PureComponent {
     phoneValue: null,
     isValid: true,
     nameValue: '',
-    emailValue: null,
     textValue: '',
   };
 
@@ -56,7 +55,7 @@ class CallBackSection extends React.PureComponent {
     const isValid = isValidPhoneNumber(this.state.phoneValue);
     if (isValid) {
       const { cost, items } = this.props;
-      const { paymentType, nameValue, phoneValue, emailValue, textValue } = this.state;
+      const { paymentType, nameValue, phoneValue, textValue } = this.state;
 
       const productsText = _.reduce(
         items,
@@ -76,7 +75,6 @@ class CallBackSection extends React.PureComponent {
         axios
           .post('/api/order/credit', {
             phone: phoneValue,
-            email:  emailValue,
             name: nameValue,
             message: textValue,
             products: productsText,
@@ -94,7 +92,7 @@ class CallBackSection extends React.PureComponent {
             Amount: cost * 100,
             // Amount: 100,
             OrderId: dateTime,
-            Description: `name: ${nameValue}, phone: ${phoneValue}, email: ${emailValue}, description: ${textValue}`,
+            Description: `name: ${nameValue}, phone: ${phoneValue}, description: ${textValue}`,
           })
           .then(response => {
             this.setState({ isPaymentForm: true });
@@ -107,7 +105,6 @@ class CallBackSection extends React.PureComponent {
         axios
           .post('/api/order/cash', {
             phone: phoneValue,
-            email:  emailValue,
             name: nameValue,
             message: textValue,
             products: productsText,
@@ -124,15 +121,14 @@ class CallBackSection extends React.PureComponent {
     } else {
       this.setState({ isValid: false });
     }
-    };
+  };
 
   render() {
     const {
-        paymentType,
-        phoneValue,
-        emailValue,
-        isValid,
-        nameValue,
+      paymentType,
+      phoneValue,
+      isValid,
+      nameValue,
       // textValue,
     } = this.state;
     const { cost } = this.props;
@@ -145,36 +141,6 @@ class CallBackSection extends React.PureComponent {
     } else {
       buttonText = 'Оформить и оплатить заказ';
     }
-    let emailRender, cashPayment;
-    if (typeof(window.books_count) !== 'undefined' && window.books_count > 0) {
-        emailRender = <input
-            type="text"
-            name="email"
-            placeholder="Ваш e-mail"
-            value={emailValue}
-            className="field"
-        />;
-        this.setState(prevState => ({
-            paymentType: 'card',
-        }));
-        cashPayment = '';
-    } else {
-        emailRender = '';
-        cashPayment = <div className="handle_payment_field">
-            <input
-        id="cash"
-        type="radio"
-        className="radio"
-        value="cash"
-        checked={paymentType === 'cash'}
-        onChange={this.handlePaymentChange}
-        />
-        <label htmlFor="cash" className="radio_label">
-            Оплата наличными при получении
-        </label>
-        </div>;
-    }
-    console.log(paymentType);
     return (
       <section className="section_callback" id="section_callback">
         <div className="callback">
@@ -191,7 +157,6 @@ class CallBackSection extends React.PureComponent {
                 id="form"
                 onSubmit={this.onSubmit}
               >
-
                 <input
                   type="text"
                   name="name"
@@ -201,7 +166,6 @@ class CallBackSection extends React.PureComponent {
                   className="field"
                   onChange={this.handleNameChange}
                 />
-                {emailRender}
                 <div className="phone_input_wrapper">
                   <PhoneInput
                     country="RU"
@@ -232,7 +196,19 @@ class CallBackSection extends React.PureComponent {
                 {/* onChange={this.handleTextChange} */}
                 {/* /> */}
                 <div className="handle_payment_fields">
-                    {cashPayment}
+                  <div className="handle_payment_field">
+                    <input
+                      id="cash"
+                      type="radio"
+                      className="radio"
+                      value="cash"
+                      checked={paymentType === 'cash'}
+                      onChange={this.handlePaymentChange}
+                    />
+                    <label htmlFor="cash" className="radio_label">
+                      Оплата наличными при получении
+                    </label>
+                  </div>
                   <div className="handle_payment_field">
                     <input
                       id="card"

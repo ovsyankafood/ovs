@@ -64,10 +64,6 @@ class BooksSection extends React.PureComponent {
   };
 
   render() {
-    this.props.items.forEach((el)=>{
-      el.type = 'book';
-    });
-    this.props.items[0].type = 'book';
     const { items } = this.props;
 
     return (

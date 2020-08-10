@@ -23,18 +23,8 @@ const setTotalCost = state => {
   return state.update('cost', 1, () => commonCost);
 };
 
-const checkCartAvailBookItems = items => {
-  window.books_count = 0;
-  items.forEach((el)=>{
-    if ('type' in el && el.type === 'book') {
-      window.books_count++;
-    }
-  });
-}
-
 const setLocalStorage = state => {
   localStorage.setItem(STORAGE_NAME, JSON.stringify(state.get('items').toJS()));
-  checkCartAvailBookItems(state.get('items').toJS());
 };
 
 function cartReducer(inState = initialState, action) {
@@ -53,7 +43,7 @@ function cartReducer(inState = initialState, action) {
     const items = localStorage.getItem(STORAGE_NAME)
       ? JSON.parse(localStorage.getItem(STORAGE_NAME))
       : [];
-    checkCartAvailBookItems(items);
+
     state = state.set('items', fromJS(items));
     state = setTotalCost(state);
 
