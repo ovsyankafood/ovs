@@ -5,8 +5,8 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
-import molodostMenuNU from '../../../files/menu-iun-2020-zdorovie-1300.jpg';
-import detoxMenuNU from '../../../files/menu-iun-2020-zdorovie-detox.jpg';
+import molodostMenuNU from '../../../files/menu-iun-2020-antistress-1300.jpg';
+import detoxMenuNU from '../../../files/menu-iun-2020-antistress-detox.jpg';
 import CloseIcon from '../../../components/Header/img/close.svg';
 
 export class ProductDescription extends React.PureComponent {
