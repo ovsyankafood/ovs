@@ -98,7 +98,7 @@ app.post('/api/order/credit', (req, res) => {
   let email_field;
 
   if(req.body.email !== '') {
-    email_field = '<li><b>E-mail:</b> ${req.body.email}</li>';
+    email_field = `<li><b>E-mail:</b> ${req.body.email}</li>`;
   } else {
     email_field = '';
   }
