@@ -47,10 +47,6 @@ class CallBackSection extends React.PureComponent {
     this.setState({ isValid: true });
   };
 
-  handleEmailChange = value => {
-    this.setState({ emailValue: value });
-  };
-
   // handleTextChange = e => {
   //   this.setState({ textValue: e.target.value });
   // };
@@ -156,8 +152,6 @@ class CallBackSection extends React.PureComponent {
             name="email"
             placeholder="Ваш e-mail"
             value={emailValue}
-            onChange={this.handleEmailChange}
-            required
             className="field"
         />;
         this.setState(prevState => ({
