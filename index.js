@@ -57,7 +57,7 @@ app.post('/api/order/cash', (req, res) => {
     req.body.name
   }.\n Номер телефона: ${req.body.phone}.\n Информация по заказу: ${
     req.body.message
-  }.\n
+  }.\n 
   Наименование: ${req.body.products}.\n
   На сумму: ${req.body.cost} руб.`;
   bot.sendMessage(CHAT_ID, message);
@@ -88,27 +88,18 @@ app.post('/api/order/credit', (req, res) => {
     req.body.name
   }.\n Номер телефона: ${req.body.phone}.\n Информация по заказу: ${
     req.body.message
-  }.\n
+  }.\n 
   Наименование: ${req.body.products}.\n
   На сумму: ${req.body.cost} руб.\n
   ID заказа: ${req.body.orderId}`;
   bot.sendMessage(CHAT_ID, message);
   res.send(message);
 
-  let email_field;
-
-  if(req.body.email !== '') {
-    email_field = '<li><b>E-mail:</b> ${req.body.email}</li>';
-  } else {
-    email_field = '';
-  }
-
   const htmlCredit = `<div>
     <p>Информация о заказе:</p>
     <ul>
       <li><b>Имя:</b> ${req.body.name}</li>
       <li><b>Тел.:</b> ${req.body.phone}</li>
-      ` + email_field + `
       <li><b>Вид оплаты:</b> Интернет-банк</li>
       <li><b>Номер заказа:</b> ${req.body.orderId}</li>
       <li><b>Наименование заказа:</b> ${req.body.products}</li>
