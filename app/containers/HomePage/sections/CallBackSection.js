@@ -47,8 +47,8 @@ class CallBackSection extends React.PureComponent {
     this.setState({ isValid: true });
   };
 
-  handleEmailChange = e => {
-    this.setState({ emailValue: e.target.value });
+  handleEmailChange = value => {
+    this.setState({ emailValue: value });
   };
 
   // handleTextChange = e => {
@@ -180,7 +180,7 @@ class CallBackSection extends React.PureComponent {
         </label>
         </div>;
     }
-
+    console.log(paymentType);
     return (
       <section className="section_callback" id="section_callback">
         <div className="callback">
