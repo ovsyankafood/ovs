@@ -37,6 +37,7 @@ import BonusSection from './sections/BonusSection';
 import BooksSection from './sections/BooksSection';
 import ProgramSection from './sections/ProgramSection';
 import ProductSection from './sections/ProductSection';
+import PfSection from './sections/PfSection';
 import SweetsSection from './sections/SweetsSection';
 import FeedbacksSection from './sections/FeedbacksSection';
 import CallBackSection from './sections/CallBackSection';
@@ -114,6 +115,11 @@ export class HomePage extends React.PureComponent {
         />
         <SweetsSection
           items={catalog.sweets}
+          addToCart={onAddToCart}
+          openCart={this.handleClickOpen}
+        />
+		<PfSection
+          items={catalog.pf}
           addToCart={onAddToCart}
           openCart={this.handleClickOpen}
         />
