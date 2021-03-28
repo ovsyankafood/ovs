@@ -98,6 +98,10 @@ class PfSection extends React.PureComponent {
                   <div className="program__slide_bottom program__slide_bottom_program sticky_slide_bottom">
                     <div className="program__slide_bottom_name_container">
                       <p className="program__slide_name">{el.name}</p>
+					  <p className="program__slide_text">{el.consist}</p>
+                      {el.kbju && (
+                        <p className="program__slide_text">КБЖУ {el.kbju}</p>
+                      )}
                     </div>
                     <div className="program__slide_cell">
                       <p className="program__slide_characteristic">
@@ -105,8 +109,9 @@ class PfSection extends React.PureComponent {
                       </p>
                       <p className="program__slide_characteristic">
                         <b>
-                          от {el.discountCost2 ? el.discountCost2 : el.cost}{' '}
-                          руб.
+                          {el.isFixPrice === false && <b>от </b>}
+                        <b>{el.cost} руб.</b>
+                        {el.costSuffix && <b>{el.costSuffix}</b>}
                         </b>
                       </p>
                     </div>
