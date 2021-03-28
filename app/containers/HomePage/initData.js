@@ -341,7 +341,6 @@ export const catalog = {
       name: 'Сырники с изюмом',
       cost: 585,
 	  kKal: '12 шт (540 г)',
-	  costSuffix: ' / 12 шт.',
       image: 'sirn.iz.obl.jpg',
       imageinside: 'sirn.inside.jpg',
       title: 'Сырники с изюмом',
