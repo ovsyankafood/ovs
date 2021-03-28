@@ -340,6 +340,7 @@ export const catalog = {
       id: 21001,
       name: 'Сырники с изюмом',
       cost: 585,
+	  kKal: 157,
 	  costSuffix: ' / 12 шт.',
       image: 'sirn.iz.obl.jpg',
       imageinside: 'sirn.inside.jpg',
@@ -355,12 +356,13 @@ export const catalog = {
       description:
         '12 шт по 45 гр. Масса нетто: 540+- 10 г. Срок хранения : 3 месяца при t= -18.',
       properties: 'КБЖУ 157 / 15 / 6 / 11 на 100 г.',
-      priceProperties: ['Cтоимость 585 рублей.'],
+      priceProperties: ['585 руб / 12 шт.'],
     },
     {
       id: 21002,
       name: 'Сырники с курагой ',
       cost: 595,
+	  kKal: 157,
 	  costSuffix: ' / 12 шт.',
       image: 'sirn.kurag.obl.jpg',
 	  imageinside: 'sirn.inside.jpg',
@@ -376,7 +378,7 @@ export const catalog = {
         '12 шт по 45 гр. Масса нетто: 540+- 10 г. Срок хранения : 3 месяца при t= -18.',
       properties:
         'КБЖУ 157 / 15 / 6 / 11 на 100 гр.',
-      priceProperties: ['Cтоимость 595 рублей.'],
+      priceProperties: ['595 руб / 12 шт.'],
     },
     {
       id: 21003,
