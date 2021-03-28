@@ -130,12 +130,12 @@ class PfSection extends React.PureComponent {
             ))}
           </Slider>
           <a
-            href="./"
-            onClick={this.openMenuModal}
-            target="_blank"
+            href="/"
             className="btn"
+            data-section="section_callback"
+            onClick={this.handleNavClick}
           >
-            Посмотреть меню
+            Заказать полуфабрикаты
           </a>
         </div>
         <WeekMenu
