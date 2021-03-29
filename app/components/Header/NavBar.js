@@ -78,6 +78,16 @@ class NavBar extends React.Component {
                   СЛАДОСТИ
                 </a>
               </li>
+			  <li className="nav__list_item">
+                <a
+                  href="/"
+                  className="nav__list_link"
+                  data-section="section_pf"
+                  onClick={this.handleNavClick}
+                >
+                  ПОЛУФАБРИКАТЫ
+                </a>
+              </li>
               <li className="nav__list_item">
                 <a
                   href="/"

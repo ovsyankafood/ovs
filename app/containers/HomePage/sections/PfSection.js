@@ -67,7 +67,7 @@ class PfSection extends React.PureComponent {
     const { items } = this.props;
 
     return (
-      <section className="section_program" id="section_program">
+      <section className="section_pf" id="section_pf">
         <div className="program">
           <div className="wrapper">
             <div className="title">
