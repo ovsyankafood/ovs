@@ -1626,6 +1626,20 @@ body {
 }
 
 @media screen and (max-width: 520px) {
+
+.pf__slider .slick-list .slick-slide[data-index="-3"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="-2"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="-1"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="3"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="4"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="5"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="6"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="7"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="8"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="9"] {display: block;}
+.pf__slider .slick-list .slick-slide[data-index="10"] {display: block;}
+
+
   .why__block {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
