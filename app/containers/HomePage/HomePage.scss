@@ -480,8 +480,6 @@ body {
 .pf__slider .slick-list .slick-slide[data-index="0"] {display: block;}
 .pf__slider .slick-list .slick-slide[data-index="1"] {display: block;}
 .pf__slider .slick-list .slick-slide[data-index="2"] {display: block;}
-.pf__slider .slick-list .slick-track{justify-content: center;width: 100%!important;transform: none!important;}
-.pf__slider .slick-arrow{display:none!important}
 
 .program_text {
   font-family: 'GothamPro-Light';
@@ -1629,6 +1627,11 @@ body {
   }
 }
 
+@media screen and (min-width: 530px) {
+.pf__slider .slick-list .slick-track{justify-content: center;width: 100%!important;transform: none!important;}
+.pf__slider .slick-arrow{display:none!important}
+}
+
 @media screen and (max-width: 520px) {
 
 .pf__slider .slick-list .slick-slide[data-index="-5"] {display: block;}
@@ -1645,8 +1648,6 @@ body {
 .pf__slider .slick-list .slick-slide[data-index="9"] {display: block;}
 .pf__slider .slick-list .slick-slide[data-index="10"] {display: block;}
 .pf__slider .slick-list .slick-slide[data-index="11"] {display: block;}
-.pf__slider .slick-list .slick-track{width: dwadw!important;transform: dadwdw!important;}
-.pf__slider .slick-arrow{display:block!important}
 
   .why__block {
     -webkit-flex-wrap: wrap;
