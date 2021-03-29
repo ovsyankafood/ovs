@@ -400,7 +400,7 @@ export const catalog = {
       priceProperties: ['595 руб / 12 шт.'],
     },
     {
-      id: 21001,
+      id: 21004,
       name: 'Сырники с изюмом',
       cost: 585,
 	  kKal: '12 шт (540 г)',
@@ -421,7 +421,7 @@ export const catalog = {
       priceProperties: ['585 руб / 12 шт.'],
     },
     {
-      id: 21002,
+      id: 21005,
       name: 'Сырники с курагой',
       cost: 595,
 	  kKal: '12 шт (540 г)',
@@ -442,7 +442,7 @@ export const catalog = {
       priceProperties: ['595 руб / 12 шт.'],
     },
     {
-      id: 21003,
+      id: 21006,
       name: 'Котлеты куриные',
       cost: 595,
 	  kKal: '12 шт (500 г)',
