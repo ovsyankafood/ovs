@@ -57,12 +57,12 @@ export const catalog = {
 
     {
       id: 1102,
-      name: 'Детокс-рацион',
+      name: 'Веганский рацион',
       kKal: 1100,
       cost: 1200,
       image: 'program-detox-obl.jpg',
       imageinside: 'program-detox-obl.jpg',
-      title: 'Детокс-рацион',
+      title: 'Веганский рацион',
       amount: 1,
       isNew: true,
       totalCost: 1200,
