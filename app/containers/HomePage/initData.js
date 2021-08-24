@@ -834,7 +834,7 @@ export const catalog = {
       name: 'Ореховое печенье ',
       kKal: 140,
       cost: 495,
-      costSuffix: ' / 10 шт.',
+      costSuffix: ' / 8 шт.',
       image: 'sweet_dessert_peanut_cookie.jpg',
       imageinside: 'sweet_dessert_peanut_cookie.jpg',
       consist:
@@ -849,28 +849,7 @@ export const catalog = {
         'Невероятно вкусное, ароматное, натуральное ореховое печенье. По текстуре мягкое, слегка рассыпчатое. Идеальный перекус с чаем или кофе./n' +
         'Состав: арахисовая паста Nutsfun (собственного производства), иранские финики, овсяная мука, темный бельгийский шоколад Callebaut',
       properties: 'КБЖУ на 32 гр. (1 шт.)  140 / 5/ 9 / 10',
-      priceProperties: ['495 руб / 10 шт.'],
-    },
-    {
-      id: 5104,
-      name: 'Протеиновое ореховое печенье',
-      kKal: 145,
-      cost: 573,
-      costSuffix: ' / 10 шт.',
-      image: 'sweet_dessert_protein_peanut_cookie.jpg',
-      imageinside: 'sweet_dessert_protein_peanut_cookie.jpg',
-      consist:
-        'Состав: арахисовая паста Nutsfun (собственного производства), иранские финики, протеин, темный бельгийский шоколад Callebaut',
-      kbju: '145 / 7/ 9 / 9 на 1 шт.',
-      title: 'Протеиновое ореховое печенье',
-      amount: 1,
-      totalCost: 495,
-      shortDescription: 'Наше протеиновое ореховое печенье',
-      description:
-        'Невероятно вкусное, ароматное, натуральное протеиновое ореховое печенье. По текстуре мягкое, слегка рассыпчатое. Идеальный перекус с чаем или кофе./n' +
-        'Состав: арахисовая паста Nutsfun (собственного производства), иранские финики, протеин, темный бельгийский шоколад Callebaut',
-      properties: 'КБЖУ на 32 гр. (1 шт.)  145 / 7/ 9 / 9',
-      priceProperties: ['573 руб / 10 шт.'],
+      priceProperties: ['495 руб / 8 шт.'],
     },
     {
       id: 5004,
