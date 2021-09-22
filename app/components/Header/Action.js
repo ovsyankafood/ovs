@@ -72,7 +72,7 @@ class Action extends React.Component {
             </div>
             <div className="action__inform">
               <p className="action__inform_text">
-                <b>Заказ:</b> будни 10:00 до 16:00, выходные 10:00 до 14:00.
+                <b>Заказ:</b> 10:00 до 14:00.
               </p>
               <p className="action__inform_text">
                 <b>Доставка:</b> на следующее утро — будни с 07:00 до 11:00,
