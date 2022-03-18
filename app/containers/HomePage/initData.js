@@ -831,7 +831,7 @@ export const catalog = {
       id: 5001,
       name: 'Пирожное Брауни',
       kKal: 325,
-      cost: 130,
+      cost: 160,
       image: 'sweet_dessert_brauni.jpg',
       imageinside: 'sweet_dessert_brauni.jpg',
       consist:
@@ -839,14 +839,14 @@ export const catalog = {
       kbju: '325  / 7 / 17 / 36 на 100 гр.',
       title: 'Пирожное Брауни',
       amount: 1,
-      totalCost: 130,
+      totalCost: 160,
       shortDescription: 'Шоколадное пирожное с мягкой сердцевиной',
       description:
         'Наш вариант классического десерта Брауни. \n' +
         'Состав: кокосовое молоко, мука овсяная, мука цельнозерновая, банан, какао, темный шоколад Callebaut, оливковое масло, миндаль.\n' +
         'Не содержит яиц, подходит как вегетарианцам, так и веганам.\n',
       properties: 'КБЖУ на 100 гр. (1 шт.) 325 / 7 / 17 / 36',
-      priceProperties: ['130 руб'],
+      priceProperties: ['160 руб'],
     },
     {
       id: 5002,
@@ -874,7 +874,7 @@ export const catalog = {
       id: 5003,
       name: 'Батончики "Сникерс"',
       kKal: 125,
-      cost: 495,
+      cost: 585,
       costSuffix: ' / 10 шт.',
       image: 'sweet_dessert_snikers.jpg',
       imageinside: 'sweet_dessert_snikers.jpg',
@@ -884,19 +884,19 @@ export const catalog = {
       isHit: true,
       title: 'Батончики "Сникерс"',
       amount: 1,
-      totalCost: 495,
+      totalCost: 585,
       shortDescription: 'Наш вариант Сникерса',
       description:
         'Двухслойный батончик. Нижний ореховый слой со сливочной ноткой и верхний тягучий слой из иранской финиковой карамели, переплетаясь, создают неповторимый вкус.\n' +
         'Состав: арахис, арахисовая паста, сухое молоко, мед, финик, какао.',
       properties: 'КБЖУ на 30 гр. (1 шт.)  125 / 5 / 7 / 11',
-      priceProperties: ['495 руб / 10 шт.'],
+      priceProperties: ['585 руб / 10 шт.'],
     },
     {
       id: 5103,
       name: 'Ореховое печенье ',
       kKal: 140,
-      cost: 495,
+      cost: 585,
       costSuffix: ' / 8 шт.',
       image: 'sweet_dessert_peanut_cookie.jpg',
       imageinside: 'sweet_dessert_peanut_cookie.jpg',
@@ -906,13 +906,13 @@ export const catalog = {
       isHit: true,
       title: 'Ореховое печенье',
       amount: 1,
-      totalCost: 495,
+      totalCost: 585,
       shortDescription: 'Наше ореховое печенье',
       description:
         'Невероятно вкусное, ароматное, натуральное ореховое печенье. По текстуре мягкое, слегка рассыпчатое. Идеальный перекус с чаем или кофе./n' +
         'Состав: арахисовая паста Nutsfun (собственного производства), иранские финики, овсяная мука, темный бельгийский шоколад Callebaut',
       properties: 'КБЖУ на 32 гр. (1 шт.)  140 / 5/ 9 / 10',
-      priceProperties: ['495 руб / 8 шт.'],
+      priceProperties: ['585 руб / 8 шт.'],
     },
     {
       id: 5004,
