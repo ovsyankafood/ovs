@@ -606,15 +606,16 @@ body {
 }
 
 .program__slide_name {
-  margin: 10px 0 0;
-  text-align: center;
-  font-size: 13px;
+  margin: 10px -10px 0;
+  text-align: center!important;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
 .program__slide_text {
   font-size: 12px;
   font-family: 'GothamPro-Light';
+  text-align:left;
 }
 
 .program__slide_characteristic {
