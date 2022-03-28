@@ -11,8 +11,14 @@
  */
 import { fromJS } from 'immutable';
 
-import { catalog, feedbacks } from './initData';
+import { localCatalog, localFeedbacks } from './initData';
 import { CHANGE_USERNAME } from './constants';
+
+localStorage.setItem('catalog', JSON.stringify(localCatalog));
+localStorage.setItem('feedbacks', JSON.stringify(localFeedbacks));
+
+const catalog = JSON.parse(localStorage.getItem('catalog'));
+const feedbacks = JSON.parse(localStorage.getItem('feedbacks'));
 
 // The initial state of the App
 export const initialState = fromJS({
