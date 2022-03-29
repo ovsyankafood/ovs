@@ -20,7 +20,7 @@ function Footer() {
             <div className="footer__subcell">
               <p className="footer__subcell_text">Мы с соцсетях</p>
               <a
-                href="https://www.instagram.com/ovsyankafood"
+                href="https://vk.com/ovsyankafood"
                 target="_blank"
                 className="footer__subcell_link"
               >
