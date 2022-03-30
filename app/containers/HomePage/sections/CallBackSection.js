@@ -144,8 +144,8 @@ class CallBackSection extends React.PureComponent {
     const { cost } = this.props;
 
     let buttonText;
-    if (cost < 500) {
-      buttonText = 'Онлайн заказ доступен от 500 руб.';
+    if (cost < 200) {
+      buttonText = 'Онлайн заказ доступен от 200 руб.';
     } else if (paymentType === 'cash') {
       buttonText = 'Оформить заказ';
     } else {
@@ -255,7 +255,7 @@ class CallBackSection extends React.PureComponent {
                     </label>
                   </div>
                 </div>
-                <button className="btn" type="submit" disabled={cost < 500}>
+                <button className="btn" type="submit" disabled={cost < 200}>
                   {buttonText}
                 </button>
                 <p className="form_subtext">
