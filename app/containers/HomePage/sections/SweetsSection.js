@@ -114,7 +114,7 @@ class SweetsSection extends React.PureComponent {
                     </div>
                     <div className="program__slide_cell">
                       <p className="program__slide_characteristic">
-                        {el.kKal} ккал
+                        {el.kKal}
                       </p>
                       <p className="program__slide_characteristic">
                         {el.isFixPrice === false && <b>от </b>}
