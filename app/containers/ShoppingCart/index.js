@@ -157,7 +157,7 @@ export class ShoppingCart extends React.PureComponent {
               ) : (
                 <div className="cart__bottom_cell">
                   <div className="cart__data">
-                    Онлайн заказ доступен от 200 руб.
+                    Онлайн заказ доступен от 500 руб.
                   </div>
                 </div>
               )}
