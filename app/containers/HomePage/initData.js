@@ -510,7 +510,7 @@ export const localCatalog = {
       {
         id: 2001,
         name: 'Coffee mint',
-        kKal: 145,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '145/2/2/31 на 1 шт.',
         image: 'detox_coffee-mint.jpg',
@@ -528,7 +528,7 @@ export const localCatalog = {
       {
         id: 2002,
         name: 'CoCo Berry',
-        kKal: 90,
+        kKal: '280 мл',
         cost: 250,
 		kbju: '90/2/6/7 на 1 шт.',
         image: 'detox_coco-berry.jpg',
@@ -545,7 +545,7 @@ export const localCatalog = {
       {
         id: 2003,
         name: 'Fiolet Cream',
-        kKal: 137,
+        kKal: '280 мл',
         cost: 250,
 		kbju: '137/2/1/30 на 1 шт.',
         image: 'detox_fiolet-cream.jpg',
@@ -563,7 +563,7 @@ export const localCatalog = {
       {
         id: 2004,
         name: 'Тархун',
-        kKal: 123,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '123/2/1/27 на 1 шт.',
         image: 'detox_tarhun.jpg',
@@ -580,7 +580,7 @@ export const localCatalog = {
       {
         id: 2005,
         name: 'Супер C',
-        kKal: 99,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '99/2/0/23 на 1 шт.',
         image: 'detox_super-c.jpg',
@@ -596,7 +596,7 @@ export const localCatalog = {
       {
         id: 2006,
         name: 'Banana Мак',
-        kKal: 175,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '175/3/4/32 на 1 шт.',
         image: 'detox_banana-mak.jpg',
@@ -612,7 +612,7 @@ export const localCatalog = {
       {
         id: 2007,
         name: 'Базилик Green',
-        kKal: 110,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '110/1/0/26 на 1 шт.',
         image: 'detox_bazilik-green.jpg',
@@ -645,7 +645,7 @@ export const localCatalog = {
       {
         id: 2009,
         name: 'Ананас Fresh',
-        kKal: 123,
+        kKal: '280 мл',
         cost: 250,
 		kbju: '123/1/0/30 на 1 шт.',
         image: 'detox_ananas-fresh.jpg',
@@ -662,7 +662,7 @@ export const localCatalog = {
       {
         id: 2010,
         name: 'Choco Dessert',
-        kKal: 175,
+        kKal: '280 мл',
         cost: 250,
 		kbju: '175/5/3/32 на 1 шт.',
         image: 'detox_choco-desert.jpg',
@@ -679,7 +679,7 @@ export const localCatalog = {
       {
         id: 2011,
         name: 'Banana Mint',
-        kKal: 112,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '112/2/1/23 на 1 шт.',
         image: 'detox_banana-mint.jpg',
@@ -695,7 +695,7 @@ export const localCatalog = {
       {
         id: 2012,
         name: 'Green Banana',
-        kKal: 111,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '111/2/1/23 на 1 шт.',
         image: 'detox_green-banana.jpg',
@@ -711,7 +711,7 @@ export const localCatalog = {
       {
         id: 2013,
         name: 'Сезам',
-        kKal: 175,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '175/5/9/19 на 1 шт.',
         image: 'detox_sezam.jpg',
@@ -742,7 +742,7 @@ export const localCatalog = {
       {
         id: 2015,
         name: 'Green Лимон',
-        kKal: 90,
+        kKal: '280 мл',
         cost: 230,
 		kbju: '90/1/0/22 на 1 шт.',
         image: 'detox_green-lemon.jpg',
@@ -758,7 +758,7 @@ export const localCatalog = {
       {
         id: 2016,
         name: 'Cherry lady',
-        kKal: 106,
+        kKal: '280 мл',
         cost: 250,
 		kbju: '106/2/0/25 на 1 шт.',
         image: 'detox_cherry_lady.jpg',
