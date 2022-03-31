@@ -154,6 +154,9 @@ class ProductSection extends React.PureComponent {
                         {el.consist && (
                           <p className="program__slide_text">{el.consist}</p>
                         )}
+						{el.kbju && (
+                        <p className="program__slide_text">КБЖУ {el.kbju}</p>
+						)}
                       </div>
                       <div className="program__slide_cell">
                         <p className="program__slide_characteristic">
