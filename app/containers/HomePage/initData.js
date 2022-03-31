@@ -834,7 +834,7 @@ export const localCatalog = {
       id: 5501,
       name: 'Веган Карамель',
       kKal: '1 шт. (180г)',
-      cost: 320,
+      cost: 350,
       costSuffix: '',
       image: 'caramel.obl.jpg',
       imageinside: 'caramel.inside.jpg',
@@ -845,12 +845,12 @@ export const localCatalog = {
       isHit: false,
       title: 'Веган Карамель',
       amount: 1,
-      totalCost: 320,
+      totalCost: 350,
       shortDescription: '',
       description:
         'Наша Карамель понравится как взрослым, так и детям! Полезная альтернатива классической карамели с большим количеством сахара. Идеальна как топинг к сырникам, запеканкам, каше, творогу и тд. А также можно просто лакомиться ложкой!',
       properties: 'КБЖУ на 100г - 360/3/24/34',
-      priceProperties: ['320 руб/180г'],
+      priceProperties: ['350 руб/180г'],
     },
 	{
       id: 5502,
