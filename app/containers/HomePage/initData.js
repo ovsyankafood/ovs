@@ -452,7 +452,7 @@ export const localCatalog = {
       kbju: '160/23/7/1 на 100 г.',
       title: 'Котлеты куриные',
       amount: 1,
-      isHit: false,
+      isHit: false, 
 	  isNew: false,
       totalCost: 650,
       shortDescription: 'Состав: филе куриной грудки, филе куриного бедра, кабачок, лук, соль, специи',
