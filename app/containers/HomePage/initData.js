@@ -451,7 +451,7 @@ export const localCatalog = {
 	  consist: 'Состав: филе куриной грудки, филе куриного бедра, кабачок, лук, соль, специи',
       kbju: '160/23/7/1 на 100 г',
       title: 'Котлеты куриные' ,
-      amount: 1,  
+      amount: 1,   
       isHit: false, 
 	  isNew: false,
       totalCost: 650,
