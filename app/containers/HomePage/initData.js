@@ -1046,8 +1046,8 @@ export const localCatalog = {
       name: 'Пирожное кешьюкейк',
       kKal: '1 шт. (100г)',
       cost: 250,
-      image: 'sweet_dessert_keshu.jpg',
-      imageinside: 'sweet_dessert_keshu.jpg',
+      image: 'keshu.obl.jpg',
+      imageinside: 'keshu.inside.jpg',
       consist:
         'Состав: кешью, кокосовое молоко, клубника, чёрная смородина, грецкий орех, овсяные хлопья, финик',
       kbju: '365/8/27/23 на 100 г',
