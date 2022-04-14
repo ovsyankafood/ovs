@@ -345,7 +345,7 @@ export const localCatalog = {
       imageinside: 'sirn.cl.inside.jpg',
       title: 'Сырники классические',
 	  consist: 'Состав: творог, мука рисовая, яйцо, сахарозаменитель инулин, соль',
-      kbju: '157/15/6/11 на 100 г.',
+      kbju: '157/15/6/11 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -354,7 +354,7 @@ export const localCatalog = {
       shortDescription: 'Состав: творог, мука рисовая, яйцо, изюм светлый, сахарозаменитель инулин, соль',
       description:
         '12 шт. по 45 г Масса нетто: 540+- 10 г. Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 157/15/6/11 на 100 г.',
+      properties: 'КБЖУ 157/15/6/11 на 100 г',
       priceProperties: ['645 руб/12 шт.'],
     },
 	{
@@ -366,7 +366,7 @@ export const localCatalog = {
       imageinside: 'ribn.kotl.obl.jpg',
       title: 'Рыбные котлетки',
 	  consist: 'Состав: горбуша, сёмга, минтай, морковь, лук, соль',
-      kbju: '135/17/7/1 на 100 г.',
+      kbju: '135/17/7/1 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -375,7 +375,7 @@ export const localCatalog = {
       shortDescription: 'Состав: горбуша, сёмга, минтай, морковь, лук, соль',
       description:
         '10 шт. по 51 г Масса нетто: 510+- 10 г. Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 135/17/7/1 на 100 г.',
+      properties: 'КБЖУ 135/17/7/1 на 100 г',
       priceProperties: ['830 руб/10 шт.'],
     },
 	{
@@ -387,7 +387,7 @@ export const localCatalog = {
       imageinside: 'naggets.inside.jpg',
       title: 'Куриные наггетсы',
 	  consist: 'Состав: филе куриного бедра, кунжут, копченая паприка, соль',
-      kbju: '187/23/10/1 на 100 г.',
+      kbju: '187/23/10/1 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -396,7 +396,7 @@ export const localCatalog = {
       shortDescription: 'Состав: филе куриного бедра, кунжут, копченая паприка, соль',
       description:
         '10 шт. по 53 г Масса нетто: 530+- 10 г. Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 187/23/10/1 на 100 г.',
+      properties: 'КБЖУ 187/23/10/1 на 100 г',
       priceProperties: ['650 руб/10 шт.'],
     },
     {
@@ -408,7 +408,7 @@ export const localCatalog = {
       imageinside: 'sirn.inside.jpg',
       title: 'Сырники с изюмом',
 	  consist: 'Состав: творог, мука рисовая, яйцо, изюм светлый, сахарозаменитель инулин, соль',
-      kbju: '157/15/6/11 на 100 г.',
+      kbju: '157/15/6/11 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -417,7 +417,7 @@ export const localCatalog = {
       shortDescription: 'Состав: творог, мука рисовая, яйцо, изюм светлый, сахарозаменитель инулин, соль',
       description:
         '12 шт. по 45 г Масса нетто: 540+- 10 г. Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 157/15/6/11 на 100 г.',
+      properties: 'КБЖУ 157/15/6/11 на 100 г',
       priceProperties: ['650 руб/12 шт.'],
     },
     {
@@ -428,7 +428,7 @@ export const localCatalog = {
       image: 'sirn.kurag.obl.jpg',
 	  imageinside: 'sirn.inside.jpg',
 	  consist: 'Состав: творог, мука рисовая, яйцо, курага, мак, сахарозаменитель инулин, соль',
-      kbju: '157/15/6/11 на 100 г.',
+      kbju: '157/15/6/11 на 100 г',
       title: 'Сырники с курагой',
       amount: 1,
       isHit: false,
@@ -449,9 +449,9 @@ export const localCatalog = {
       image: 'kotleti.obl.jpg',
 	  imageinside: 'kotleti.inside.jpg',
 	  consist: 'Состав: филе куриной грудки, филе куриного бедра, кабачок, лук, соль, специи',
-      kbju: '160/23/7/1 на 100 г.',
+      kbju: '160/23/7/1 на 100 г',
       title: 'Котлеты куриные',
-      amount: 1,
+      amount: 1, 
       isHit: false, 
 	  isNew: false,
       totalCost: 650,
@@ -471,7 +471,7 @@ export const localCatalog = {
       imageinside: 'bling.inside.jpg',
       title: 'Белковые блинчики с грибами ',
 	  consist: 'Состав: яйцо, шампиньоны, сыр эдам, лук, укроп, соль, подсолнечное масло',
-      kbju: '184/13/13/3 на 100 г.',
+      kbju: '184/13/13/3 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -480,7 +480,7 @@ export const localCatalog = {
       shortDescription: 'Состав: яйцо, шампиньоны, сыр эдам, лук, укроп, соль, подсолнечное масло',
       description:
         'Упаковка 600 г. 8 блинчиков (по 75 г каждый) Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 184/13/13/3 на 100 г.',
+      properties: 'КБЖУ 184/13/13/3 на 100 г',
       priceProperties: ['695 руб/8 шт.'],
     },
 	{
@@ -492,7 +492,7 @@ export const localCatalog = {
       imageinside: 'blins.inside.jpg',
       title: 'Белковые блинчики сладкие ',
 	  consist: 'Состав: яйцо, творог, банан, клубника, аргентинский арахис сорта Runner, соль, подсолнечное масло',
-      kbju: '184/13/12/7 на 100 г.',
+      kbju: '184/13/12/7 на 100 г',
       amount: 1,
       eloblclose: '132131',
       isHit: false,
@@ -501,7 +501,7 @@ export const localCatalog = {
       shortDescription: 'Состав: яйцо, творог, банан, клубника, аргентинский арахис сорта Runner, соль, подсолнечное масло',
       description:
         'Упаковка 600 г. 8 блинчиков (по 75 г каждый) Срок хранения : 3 месяца при t= -18.',
-      properties: 'КБЖУ 184/13/12/7 на 100 г.',
+      properties: 'КБЖУ 184/13/12/7 на 100 г',
       priceProperties: ['650 руб/8 шт.'],
     },
   ],
