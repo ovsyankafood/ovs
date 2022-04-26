@@ -851,8 +851,8 @@ export const localCatalog = {
       kKal: '1 шт. (75г)',
       cost: 145,
       costSuffix: '',
-      image: 'sirok_klubn.obl.jpg',
-      imageinside: 'sirok_klubn.inside.jpg',
+      image: 'sirok_klubn.inside.jpg',
+      imageinside: 'sirok_klubn.obl.jpg',
       consist:
         'Состав: творог, кокосовое молоко, кокосовое масло, кокосовая стружка, клубника, сах/зам, итальянский темный шоколад  Ariba',
       kbju: '201/8/13/13 на 1 шт.',
@@ -873,8 +873,8 @@ export const localCatalog = {
       kKal: '1 шт. (65г)',
       cost: 145,
       costSuffix: '',
-      image: 'sirok_shok.obl.jpg',
-      imageinside: 'sirok_shok.inside.jpg',
+      image: 'sirok_shok.inside.jpg',
+      imageinside: 'sirok_shok.obl.jpg',
       consist:
         'Состав: творог, кокосовое молоко, кокосовое масло, кокосовая стружка, какао, сах/зам, итальянский темный шоколад  Ariba',
       kbju: '197/8/13/12 на 1 шт.',
@@ -917,8 +917,8 @@ export const localCatalog = {
       kKal: '1 шт. (65г)',
       cost: 130,
       costSuffix: '',
-      image: 'sirok.obl.jpg',
-      imageinside: 'sirok.inside.jpg',
+      image: 'sirok.inside.jpg',
+      imageinside: 'sirok.obl.jpg',
       consist:
         'Состав: творог, кокосовое молоко, кокосовое масло, кокосовая стружка, сах/зам, итальянский темный шоколад  Ariba',
       kbju: '197/8/13/12 на 1 шт.',
